@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Grid {
+
     private int[][] grid;
 
     public Grid(int height, int width) {
@@ -98,5 +99,9 @@ public class Grid {
                 grid[i][j] = 0;
             }
         }
+    }
+
+    public int[][] getGrid() {
+        return grid;
     }
 }
